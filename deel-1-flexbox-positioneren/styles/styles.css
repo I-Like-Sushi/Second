@@ -1,6 +1,5 @@
 /*Schrijf hier jouw CSS*/
 /* Opdracht 1 */
-
 .opdracht-1 > ul{
     display: flex;
     flex-direction: row;
