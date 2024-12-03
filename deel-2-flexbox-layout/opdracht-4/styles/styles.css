@@ -1,1 +1,54 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 3;
+}
+
+header {
+    justify-content: flex-start;
+    flex-grow: 1;
+    height: 200px;
+}
+
+.inner-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 3px dashed red;
+}
+
+.inner-col {
+    width: 100%;
+}
+
+article {
+    flex-wrap: wrap;
+    min-height: 500px;
+    order: 1;
+    flex-grow: 3;
+}
+
+aside {
+    order: 2;
+    width: 30%;
+    flex-grow: 1;
+}
+
+footer {
+    flex-grow: 1;
+    height: 200px;
+}

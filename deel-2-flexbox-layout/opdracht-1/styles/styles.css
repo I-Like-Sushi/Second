@@ -1,1 +1,35 @@
 /*Schrijf hier jouw CSS*/
+header {
+    display: flex;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    border: 3px dashed red;
+    height: 400px;
+}
+
+article {
+    display: flex;
+    flex-grow: 3;
+    order: 1;
+}
+
+nav {
+    display: flex;
+    flex-grow: 1;
+    order: 3;
+}
+
+aside {
+    display: flex;
+    flex-grow: 1;
+    order: 2;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+}
